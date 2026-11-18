@@ -1,0 +1,60 @@
+{
+  "version": "0.9",
+  "generatedAt": "2026-11-06T04:26:37.366Z",
+  "techStack": {
+    "languages": [
+      "Python"
+    ],
+    "frameworks": [],
+    "databases": [],
+    "orms": [],
+    "auth": [],
+    "testing": [],
+    "buildTools": [],
+    "cloudSdks": [],
+    "payments": [],
+    "other": [],
+    "packageManager": null,
+    "summary": "Python"
+  },
+  "clusters": [
+    {
+      "name": "Services",
+      "files": [
+        "generate_traffic.py"
+      ],
+      "risk": "LOW",
+      "centralFile": "generate_traffic.py",
+      "dependsOn": [],
+      "usedBy": []
+    },
+    {
+      "name": "Other",
+      "files": [
+        "sniffer.py"
+      ],
+      "risk": "LOW",
+      "centralFile": "sniffer.py",
+      "dependsOn": [],
+      "usedBy": []
+    }
+  ],
+  "criticalFiles": [],
+  "architecture": {
+    "style": "Modular",
+    "layers": [
+      "Modular"
+    ],
+    "criticalChains": []
+  },
+  "riskAreas": [],
+  "reviewGroups": [],
+  "recentChanges": {
+    "branch": "unknown",
+    "filesChanged": 0,
+    "riskLevel": "LOW",
+    "featuresAdded": [],
+    "featuresModified": []
+  },
+  "rules": []
+}

@@ -1,0 +1,8 @@
+{
+  "services": [
+    "generate_traffic.py"
+  ],
+  "other": [
+    "sniffer.py"
+  ]
+}

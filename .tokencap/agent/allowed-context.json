@@ -1,0 +1,8 @@
+{
+  "services": [
+    "generate_traffic*"
+  ],
+  "other": [
+    "sniffer*"
+  ]
+}

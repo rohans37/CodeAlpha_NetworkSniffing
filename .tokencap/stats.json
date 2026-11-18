@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "runCount": 2,
+  "totalTokensSaved": 5055,
+  "lastBuildSavings": 2546,
+  "lastBuildAt": "2026-11-06T04:26:36.129Z",
+  "notifiedMilestones": [],
+  "newMilestones": [],
+  "notice": null,
+  "baselineDefinition": "Eligible redacted text source files before ranking, selection, or compression.",
+  "tokenizerProfile": "tokencap-estimate-v1",
+  "runs": [
+    {
+      "generatedAt": "2026-11-06T04:24:36.106Z",
+      "profile": "balanced",
+      "baselineTokens": 6899,
+      "snapshotTokens": 4390,
+      "savedTokens": 2509,
+      "tokenizerProfile": "tokencap-estimate-v1",
+      "baselineDefinition": "Eligible redacted text source files before ranking, selection, or compression."
+    },
+    {
+      "generatedAt": "2026-11-06T04:26:36.129Z",
+      "profile": "balanced",
+      "baselineTokens": 7087,
+      "snapshotTokens": 4541,
+      "savedTokens": 2546,
+      "tokenizerProfile": "tokencap-estimate-v1",
+      "baselineDefinition": "Eligible redacted text source files before ranking, selection, or compression."
+    }
+  ]
+}

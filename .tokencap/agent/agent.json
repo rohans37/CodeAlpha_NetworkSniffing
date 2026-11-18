@@ -1,0 +1,47 @@
+{
+  "version": "0.8",
+  "projectName": "CodeAlpha_NetworkSniffing",
+  "generatedAt": "2026-11-06T04:26:36.600Z",
+  "projectType": "Python",
+  "techStack": {
+    "languages": [
+      "Python"
+    ],
+    "frameworks": [],
+    "databases": [],
+    "auth": [],
+    "testing": [],
+    "buildTools": [],
+    "cloudSdks": [],
+    "payments": [],
+    "externalServices": []
+  },
+  "architecture": {
+    "style": "Modular",
+    "layers": [
+      "Modular"
+    ],
+    "clusters": [
+      {
+        "name": "Services",
+        "size": 1,
+        "risk": "LOW",
+        "centralFile": "generate_traffic.py"
+      },
+      {
+        "name": "Unclassified",
+        "size": 1,
+        "risk": "LOW",
+        "centralFile": "sniffer.py"
+      }
+    ],
+    "criticalChains": [],
+    "evidence": []
+  },
+  "criticalFiles": [],
+  "riskAreas": [],
+  "reviewGroups": [],
+  "rules": [],
+  "coreFeatures": [],
+  "agentInjectHooks": {}
+}
